@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 @FeignClient(name = "service-movie",fallback = MovieFallBackHystrix.class)
 public interface MovieClient {
 
-    @GetMapping("/movies/{id}")
+    @GetMapping("/store/v1/movies/{id}")
     Response findByID(@PathVariable Long id);
 }

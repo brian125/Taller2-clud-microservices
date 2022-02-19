@@ -1,4 +1,4 @@
-package com.cloud.booking.modules;
+package com.cloud.booking.services.modules;
 
 import lombok.Data;
 

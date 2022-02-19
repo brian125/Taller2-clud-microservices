@@ -1,6 +1,6 @@
 package com.cloud.booking.client;
 
-import com.cloud.booking.modules.Movie;
+import com.cloud.booking.services.modules.Movie;
 import com.example.multimodule.service.utils.Response;
 import com.example.multimodule.service.utils.ResponseBuilder;
 import lombok.RequiredArgsConstructor;

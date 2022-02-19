@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 @FeignClient(name = "service-user",fallback = UserFallBackHystrix.class)
 public interface UserClient {
 
-    @GetMapping("/users/{id}")
+    @GetMapping("/store/v1/users/{id}")
     Response findById(@PathVariable("id") Long id);
 }

@@ -1,14 +1,14 @@
 spring:
   application:
-    name: service-config
+    name: service-conf
   cloud:
     config:
       server:
         git:
-          uri: file:///C:/Users/Jonat/Desktop/CloudProject/config-data
+          uri: file:///C:/Users/123/Desktop/config-data
   security:
     user:
-      name: ${USER}
-      password: ${PASS}
+      name: admin
+      password: admin
 server:
   port: 9000

@@ -1,7 +1,7 @@
 package com.cloud.booking.entities;
 
-import com.cloud.booking.modules.Movie;
-import com.cloud.booking.modules.User;
+import com.cloud.booking.services.modules.Movie;
+import com.cloud.booking.services.modules.User;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
